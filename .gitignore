@@ -1,2 +1,4 @@
 dbconfig.py
 *.pyc
+.vscode
+run.py
