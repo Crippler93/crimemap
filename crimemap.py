@@ -44,6 +44,7 @@ def submitcrime():
 
 def format_date(userdate):
     date = dateparser.parse(userdate)
+    print(date) # debug
     try:
         return datetime.datetime.strftime(date, "%Y-%m-%d")
     except TypeError:
